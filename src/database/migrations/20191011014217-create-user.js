@@ -12,7 +12,7 @@ module.exports = {
         allowNull: false,
       },
       cpf: {
-        type: Sequelize.INTEGER,
+        type: Sequelize.STRING,
         allowNull: false,
         unique: true,
       },
@@ -29,7 +29,7 @@ module.exports = {
         allowNull: false,
       },
       farm_area: {
-        type: Sequelize.INTEGER,
+        type: Sequelize.STRING,
         allowNull: false,
       },
       plantation: {
